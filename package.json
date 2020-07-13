@@ -1,0 +1,27 @@
+{
+  "name": "kanny",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node backend.js",
+    "psql": "docker-compose exec db psql -U postgres",
+    "test-nact": "docker-compose exec backend node test-nact.js",
+    "test-knex": "docker-compose exec backend node test-knex.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pretzelhammer/kanny.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pretzelhammer/kanny/issues"
+  },
+  "homepage": "https://github.com/pretzelhammer/kanny#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.1",
+    "nact": "^7.3.1",
+    "nact-persistence-postgres": "^7.3.1",
+    "pg": "^8.2.1"
+  }
+}

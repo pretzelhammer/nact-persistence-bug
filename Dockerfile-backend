@@ -1,0 +1,7 @@
+FROM node:14.5.0-alpine3.12
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+# MOUNT source code directory into /usr/src/app from docker-compose.yml
+# EXPOSE & BIND app ports to host from docker-compose.yml
+# define "npm start" script in package.json
+CMD ["npm", "start"]
