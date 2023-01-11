@@ -19,7 +19,7 @@
   "homepage": "https://github.com/pretzelhammer/kanny#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "knex": "^0.21.1",
+    "knex": "^2.4.0",
     "nact": "^7.3.1",
     "nact-persistence-postgres": "^7.3.1",
     "pg": "^8.2.1"
